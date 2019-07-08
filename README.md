@@ -15,3 +15,5 @@ To improve the compressive sensing MRI (CS-MRI) approaches in terms of fine stru
 
 ## Overall structure of the IFR-Net
 
+![](https://github.com/yqx7150/IFR-Net-Code/Img/Structure.png)
+
