@@ -1,5 +1,5 @@
 # IFR-Net-Code
-IFR-Net: Iterative Feature Refinement Network for Fast Compressed Sensing MRI 
+IFR-Net: Iterative Feature Refinement Network for Compressed Sensing MRI 
 
 ## About The Code
 The Code based on the method described in the following paper:   
