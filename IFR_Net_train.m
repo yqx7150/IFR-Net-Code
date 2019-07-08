@@ -1,8 +1,8 @@
 %% The is a training Code based on the method described in the following paper: 
 % IFR-Net: Iterative Feature Refinement Network for Compressed Sensing MRI 
 % Author: Yiling Liu, Qiegen Liu, Minghui Zhang, Qingxin Yang, Shanshan Wang and Dong Liang 
-% Date : 3/2019 
-% Version : 2.0 
+% Date : 7/2019 
+% Version : 3.0 
 % The code and the algorithm are for non-comercial use only. 
 % Copyright 2019, Department of Electronic Information Engineering, Nanchang University. 
 % 
@@ -22,16 +22,24 @@
 % Outputs:
 % net: The trained weight.
 clear all;close all;clc;
-addpath(genpath('./.'))
-config;
-vl_compilenn;
+%% add path
+addpath('./layersfunction')
+addpath('./mask')
+addpath('./matconvnet')
+addpath('./Test_data')
+addpath('./Train_data')
+addpath('./Train_output')
+addpath('./util')
+addpath(genpath(pwd))
+config; % set the structure for network: filter number, filter size, stage number, inner block number and iterative number
+vl_compilenn; % prepare for MatConvNet
 %% Load character dataset
-load('IFR-NET-radial30-knee.mat')  ;
+load('IFR-NET-radial30-knee.mat'); % load the training data
 %% Network initialization
-net = initialize_IFR_NET(); 
+net = initialize_IFR_NET();  % initialize the parameters of network 
 %% Train and evaluate the IFR-NET
 tic;
-net = IFR_train(net, imdb, trainOpts) ;
+net = IFR_train(net, imdb, trainOpts) ; % main training procedure
 time = toc;
 time = time/3600;
 fprintf('The training time is %2.1f hours.\n', time);
