@@ -19,7 +19,7 @@ To improve the compressive sensing MRI (CS-MRI) approaches in terms of fine stru
 
 ## Result
 
-![](https://github.com/yqx7150/IFR-Net-Code/blob/master/Img/结果图.png) <br>
+<div align=center>![](https://github.com/yqx7150/IFR-Net-Code/blob/master/Img/结果图.png)</div> <br>
 Fig. 1 Real-valued reconstruction results on brain image. Sampling pattern:10% pseudo radial sampling. Left to right: Ground truth, IFR-CS, ADMM-Net, and IFR-NET. <br>
 ![](https://github.com/yqx7150/IFR-Net-Code/blob/master/Img/结果图2.png) <br>
 Fig. 2 Complex-valued reconstruction results on brain image. Sampling pattern:25% 2D random sampling. Left to right: Ground truth, IFR-CS, ADMM-Net and IFR-NET.
