@@ -25,9 +25,9 @@ addpath('./Train_data')
 addpath('./Train_output')
 addpath('./util')
 addpath(genpath(pwd))
-% vl_compilenn; % prepare for MatConvNet
+vl_compilenn; % prepare for MatConvNet
 %% Load trained network
-load('./Train_output/net/net-radial30.mat') 
+load('./Train_output/net/IFR-Net-radial30.mat') 
 %% Load data 
 load('./test_data/knee02.mat') 
 M0 = abs(im2double(Img));
@@ -51,6 +51,6 @@ re_Loss = res(end).x;
 re_PSNR = psnr(abs(rec_image) , abs(data.label)) ;
 HFEN = norm(imfilter(abs(rec_image),fspecial('log',15,1.5)) - imfilter(data.label,fspecial('log',15,1.5)),'fro');
 SSIM = cal_ssim(255*rec_image, 255*data.label, 0, 0 );
-fprintf('IFR-Net reconstruction: NMSE %.4f, PSNR %.4f, HFEN %.4f, SSIM %.4f.\n2,',re_Loss, re_PSNR, HFEN, SSIM);
+fprintf('IFR-Net reconstruction: NMSE %.4f, PSNR %.4f, HFEN %.4f, SSIM %.4f.\n',re_Loss, re_PSNR, HFEN, SSIM);
 figure(22);imshow(abs(rec_image),[]);
 
