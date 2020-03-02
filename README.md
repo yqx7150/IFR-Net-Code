@@ -39,3 +39,5 @@ Fig. 2 Complex-valued reconstruction results on brain image. Sampling pattern:25
   * VST-Net: Variance-stabilizing transformation inspired network for Poisson denoising [<font size=5>**[Paper]**</font>](https://www.sciencedirect.com/science/article/pii/S1047320319301439)   [<font size=5>**[Code]**</font>](https://github.com/yqx7150/VST-Net)
    
   * Iterative scheme-inspired network for impulse noise removal [<font size=5>**[Paper]**</font>](https://link.springer.com/article/10.1007/s10044-018-0762-8)   [<font size=5>**[Code]**</font>](https://github.com/yqx7150/IIN-Code)
+
+  * A Comparative Study of CNN-based Super-resolution Methods in MRI Reconstruction and Its Beyond [<font size=5>**[Paper]**</font>](https://sciencedirect.xilesou.top/science/article/abs/pii/S0923596519302358)   [<font size=5>**[Code]**</font>](https://github.com/yqx7150/DCCN)
