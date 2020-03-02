@@ -29,3 +29,11 @@ Fig. 2 Complex-valued reconstruction results on brain image. Sampling pattern:25
 
 [D5C5  https://github.com/js3611/Deep-MRI-Reconstruction](https://github.com/js3611/Deep-MRI-Reconstruction) <br>
 [ADMM-Net  https://github.com/yangyan92/Deep-ADMM-Net](https://github.com/yangyan92/Deep-ADMM-Net)
+
+
+
+
+## Other Related Projects
+  * Variable augmented neural network for decolorization and multi-exposure fusion [<font size=5>**[Paper]**</font>](https://www.sciencedirect.com/science/article/abs/pii/S1566253517305298)   [<font size=5>**[Code]**</font>](https://github.com/yqx7150/DecolorNet_FusionNet_code)   [<font size=5>**[Slide]**</font>](https://github.com/yqx7150/EDAEPRec/tree/master/Slide)
+  
+  * VST-Net: Variance-stabilizing transformation inspired network for Poisson denoising [<font size=5>**[Paper]**</font>](https://www.sciencedirect.com/science/article/pii/S1047320319301439)   [<font size=5>**[Code]**</font>](https://github.com/yqx7150/VST-Net)
