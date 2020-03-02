@@ -4,7 +4,7 @@ IFR-Net: Iterative Feature Refinement Network for Compressed Sensing MRI
 ## About The Code
 The Code based on the method described in the following paper:   
 IFR-Net: Iterative Feature Refinement Network for Compressed Sensing MRI   
-Author: Yiling Liu, Qiegen Liu, Minghui Zhang, Qingxin Yang, Shanshan Wang and Dong Liang 
+Author: Yiling Liu, Qiegen Liu, Minghui Zhang, Qingxin Yang, Shanshan Wang and Dong Liang       
         IEEE Trans. Comput. Imag., vol. 6, pp. 434-446, 2020.   
 Version : 4.0   
 The code and the algorithm are for non-comercial use only.   
