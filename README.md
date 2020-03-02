@@ -41,3 +41,5 @@ Fig. 2 Complex-valued reconstruction results on brain image. Sampling pattern:25
   * Iterative scheme-inspired network for impulse noise removal [<font size=5>**[Paper]**</font>](https://link.springer.com/article/10.1007/s10044-018-0762-8)   [<font size=5>**[Code]**</font>](https://github.com/yqx7150/IIN-Code)
 
   * A Comparative Study of CNN-based Super-resolution Methods in MRI Reconstruction and Its Beyond [<font size=5>**[Paper]**</font>](https://sciencedirect.xilesou.top/science/article/abs/pii/S0923596519302358)   [<font size=5>**[Code]**</font>](https://github.com/yqx7150/DCCN)
+
+  * Progressively distribution-based Rician noise removal for magnetic resonance imaging [<font size=5>**[Paper]**</font>](http://archive.ismrm.org/2018/0773.html)   [<font size=5>**[Code]**</font>](https://github.com/yqx7150/RicianNet)
